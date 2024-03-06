@@ -1,0 +1,10 @@
+#!/bin/bash
+echo "Enter domain to perform reconnaissance:"
+read domain
+types=("txt" "ns" "mx")
+output="result.txt"
+for type in "${types[@]}"; do
+    nslookup -type="$type" "$domain" >> "$output"
+done
+echo "Reconnaissance complete. Results:"
+cat "$output"
