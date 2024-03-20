@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-20T02:07:36.371Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="dl60lwPGzqXODxy1qzf4" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-20T02:19:50.898Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="1lAqvE3sJz03z7Cdfz9m" version="24.0.7" type="github">
   <diagram name="Page-1" id="75iP4moHz4gSnm8W7jYa">
     <mxGraphModel dx="1434" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -24,8 +24,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fdf8ruKNhAeZIdXmLDlQ-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fdf8ruKNhAeZIdXmLDlQ-3" target="Fdf8ruKNhAeZIdXmLDlQ-23">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Fdf8ruKNhAeZIdXmLDlQ-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fdf8ruKNhAeZIdXmLDlQ-3" target="Fdf8ruKNhAeZIdXmLDlQ-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="120" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Fdf8ruKNhAeZIdXmLDlQ-3" value="" style="image;html=1;image=img/lib/clip_art/networking/Firewall_128x128.png" vertex="1" parent="1">
           <mxGeometry x="160" y="80" width="80" height="80" as="geometry" />
@@ -52,7 +54,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Fdf8ruKNhAeZIdXmLDlQ-12" value="" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#282828;strokeColor=none;verticalAlign=top;pointerEvents=1;align=center;shape=mxgraph.cisco_safe.security_icons.ids;" vertex="1" parent="1">
-          <mxGeometry x="417" y="25" width="46" height="35.5" as="geometry" />
+          <mxGeometry x="327" y="30" width="46" height="35.5" as="geometry" />
         </mxCell>
         <mxCell id="Fdf8ruKNhAeZIdXmLDlQ-18" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer.svg;" vertex="1" parent="1">
           <mxGeometry x="460" y="210" width="45.6" height="61.800000000000004" as="geometry" />
@@ -70,13 +72,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Fdf8ruKNhAeZIdXmLDlQ-22" value="" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png" vertex="1" parent="1">
-          <mxGeometry x="400" y="80" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="Fdf8ruKNhAeZIdXmLDlQ-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fdf8ruKNhAeZIdXmLDlQ-23" target="Fdf8ruKNhAeZIdXmLDlQ-22">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Fdf8ruKNhAeZIdXmLDlQ-23" value="" style="image;html=1;image=img/lib/clip_art/networking/Firewall-page1_128x128.png" vertex="1" parent="1">
-          <mxGeometry x="300" y="80" width="80" height="80" as="geometry" />
+          <mxGeometry x="310" y="80" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Fdf8ruKNhAeZIdXmLDlQ-31" value="Honeypot" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="320" y="260" width="60" height="30" as="geometry" />
@@ -85,19 +81,16 @@
           <mxGeometry x="452.8" y="271.8" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Fdf8ruKNhAeZIdXmLDlQ-33" value="Switch" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="410" y="140" width="60" height="30" as="geometry" />
+          <mxGeometry x="320" y="140" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Fdf8ruKNhAeZIdXmLDlQ-35" value="IDS" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="410" width="60" height="30" as="geometry" />
+          <mxGeometry x="320" y="5" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Fdf8ruKNhAeZIdXmLDlQ-36" value="IPS" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="120" y="250" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Fdf8ruKNhAeZIdXmLDlQ-37" value="Firewall" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="168" y="55" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Fdf8ruKNhAeZIdXmLDlQ-38" value="Firewall" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="310" y="50" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Fdf8ruKNhAeZIdXmLDlQ-39" value="Mail Server" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="510" y="160" width="60" height="30" as="geometry" />
